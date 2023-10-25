@@ -12,13 +12,13 @@ $phone = $_POST['user_number'];
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'web_development_01@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = 'fyzbC4idkxM37V9E9jaa'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = ''; // Ваш логин от почты с которой будут отправляться письма
+$mail->Password = 'a'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('web_development_01@mail.ru'); // от кого будет уходить письмо?
-$mail->addAddress('vasev-2020@bk.ru');// Кому будет уходить письмо 
+$mail->setFrom(''); // от кого будет уходить письмо?
+$mail->addAddress('');// Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
